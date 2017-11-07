@@ -17,5 +17,9 @@ namespace Dados
 
         }
 
+        public void CadastrarConta(){
+
+        }
+
     }
 }
