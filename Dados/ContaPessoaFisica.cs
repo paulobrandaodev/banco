@@ -4,6 +4,7 @@ namespace Dados
     {
         public string NomeCliente { get; set; }
         public string DataNascimento { get; set; }
+        public Pessoa pessoa { get; set; }
 
         public override double Sacar(double Valor){
             this.Saldo -= Valor + 0.10;
@@ -15,7 +16,7 @@ namespace Dados
             return this.Saldo;
 
 
-            
+
         }
 
     }

@@ -4,9 +4,10 @@ namespace Dados
     {
         public string RazaoSocial { get; set; }
         public string CNPJ { get; set; }
+        public Empresa empresa { get; set; }
 
         public override double Sacar(double Valor){
-            this.Saldo -= Valor + 0.10;
+            this.Saldo -= Valor + 0.50;
             return this.Saldo; 
         }
 
