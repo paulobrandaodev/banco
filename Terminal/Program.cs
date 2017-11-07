@@ -11,7 +11,7 @@ namespace Terminal
 
             ContaPessoaFisica contapf = new ContaPessoaFisica();
             
-            Console.WriteLine(contapf.Sacar(500.00));
+            Console.WriteLine(contapf.Sacar(5880.00));
                        
 
         }
